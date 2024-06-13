@@ -14,7 +14,7 @@ const Initial = () => {
       <div id="valentineQuestion"><b>Will you be my valentine?</b></div>
       <button
         className="answerButton"
-        onClick={() => window.location.href = 'thankyou.html'}
+        onClick={() => window.location.href = 'Thankyou.html'}
         style={{ fontSize: `${fontSize}px` }}
       >
         Yes

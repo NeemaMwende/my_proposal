@@ -1,8 +1,8 @@
 // src/ActivitiesSelection.js
 import React from "react";
-import "./App.css"; // Ensure you have necessary styles here or in a global CSS file
+import "./Activities.css"; // Ensure you have necessary styles here or in a global CSS file
 
-const ActivitiesSelection = () => {
+const Activities = () => {
   const handleContinueClick = () => {
     window.location.href = 'Lastpage.jsx';
   };
@@ -61,4 +61,4 @@ const ActivitiesSelection = () => {
   );
 };
 
-export default ActivitiesSelection;
+export default Activities;

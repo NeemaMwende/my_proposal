@@ -1,7 +1,7 @@
 import React from "react";
-import "./FlowerAnimation.css"; // Ensure you import your CSS
+import "./LastPage.css"; // Ensure you import your CSS
 
-const FlowerAnimation = () => {
+const LastPage = () => {
   return (
     <div>
       <div id="thankyou"><b>Thank you for being my Valentine</b></div>
@@ -53,4 +53,4 @@ const FlowerAnimation = () => {
   );
 };
 
-export default FlowerAnimation;
+export default LastPage;

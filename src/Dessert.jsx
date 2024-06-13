@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css"; // Ensure you have necessary styles here or in a global CSS file
+import "./Dessert.css"; // Ensure you have necessary styles here or in a global CSS file
 
-const DessertSelection = () => {
+const Dessert = () => {
   const handleContinueClick = () => {
     window.location.href = 'Activities.jsx';
   };
@@ -60,4 +60,4 @@ const DessertSelection = () => {
   );
 };
 
-export default DessertSelection;
+export default Dessert;

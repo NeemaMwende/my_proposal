@@ -1,6 +1,6 @@
 // src/Valentine.js
 import React, { useState } from "react";
-import "./App.css";
+import "./Initial.css";
 
 const Initial = () => {
   const [fontSize, setFontSize] = useState(16); // initial font size

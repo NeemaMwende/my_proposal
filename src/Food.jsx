@@ -1,8 +1,8 @@
 // src/FoodSelection.js
 import React from "react";
-import "./App.css"; // Ensure you have necessary styles here or in a global CSS file
+import "./Food.css"; // Ensure you have necessary styles here or in a global CSS file
 
-const FoodSelection = () => {
+const Food = () => {
   const handleContinueClick = () => {
     window.location.href = 'Dessert.jsx';
   };
@@ -77,4 +77,4 @@ const FoodSelection = () => {
   );
 };
 
-export default FoodSelection;
+export default Food;

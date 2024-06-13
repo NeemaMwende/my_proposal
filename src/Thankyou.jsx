@@ -1,5 +1,6 @@
 // src/ThankYou.js
 import React from "react";
+import "./Thankyou.css"
 
 const ThankYou = () => {
   const handleButtonClick = () => {

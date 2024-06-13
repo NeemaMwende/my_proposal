@@ -1,6 +1,14 @@
 // src/FoodSelection.js
 import React from "react";
 import "./Food.css"; // Ensure you have necessary styles here or in a global CSS file
+import burger from "../src/Images/burgers.jpeg";
+import dog from "../src/Images/dog.jpeg";
+import korean from "../src/Images/dog.jpeg";
+import pizza from "../src/Images/pizza.jpeg";
+import sushi from "../src/Images/sushi.jpeg";
+import steak from "../src/Images/steak.jpeg";
+import salad from "../src/Images/salad.jpeg";
+import pasta from "../src/Images/pasta.jpeg" ;
 
 const Food = () => {
   const handleContinueClick = () => {
@@ -14,56 +22,56 @@ const Food = () => {
       </div>
       <div className="food-selection">
         <div className="food-item">
-          <img src="/food/food/burgers.jpeg" alt="Burgers, fries and fried chicken" />
+          <img src={burger} alt="Burgers, fries and fried chicken" />
           <label>
             <input type="checkbox" name="food" value="Burgers, fries and fried chicken" />
             Burgers and fried chicken
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/dog.jpeg" alt="dog" />
+          <img src={dog} alt="dog" />
           <label>
             <input type="checkbox" name="food" value="hotdog" />
             Hotdog
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/koreanfood.jpeg" alt="koreanfood" />
+          <img src={korean} alt="koreanfood" />
           <label>
             <input type="checkbox" name="food" value="Korean food" />
             Korean food
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/pasta.jpeg" alt="pasta" />
+          <img src={pasta} alt="pasta" />
           <label>
             <input type="checkbox" name="food" value="pasta" />
             Pasta
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/pizza.jpeg" alt="pizza" />
+          <img src={pizza} alt="pizza" />
           <label>
             <input type="checkbox" name="food" value="pizza" />
             Pizza
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/salad.jpeg" alt="salad" />
+          <img src={salad} alt="salad" />
           <label>
             <input type="checkbox" name="food" value="salad" />
             Salad
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/steak.jpeg" alt="steak" />
+          <img src={steak} alt="steak" />
           <label>
             <input type="checkbox" name="food" value="steak" />
             Steak
           </label>
         </div>
         <div className="food-item">
-          <img src="/food/food/sushi.jpeg" alt="sushi" />
+          <img src={sushi} alt="sushi" />
           <label>
             <input type="checkbox" name="food" value="sushi" />
             Sushi
